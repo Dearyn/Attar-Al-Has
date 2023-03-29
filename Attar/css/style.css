@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;500;700&display=swap');
+
+a{
+    text-decoration: none; 
+    color: #8D8D91;
+}
+a:hover{
+    color: black;
+}
+.MenuPozisyon{
+    z-index: 999;
+}
+.KalinYaz{
+    color: #0C0C11 !important;
+}
+.Menu{
+    position: relative;
+}
+.NavLogoTutucu{
+    margin-top: 55px;
+    margin-left: 135px;
+}
+
+.HeaderIconlar{
+    position: absolute;
+    right: 40px;
+    top:0px;
+}
+.MarkaLogo{
+    vertical-align: middle;
+    width: 76px;
+}
+.HIcon{
+    float:right;
+    margin-right:12px;
+}
+
+.mrUser{
+    margin-right: 43px;
+}
+
+.temizle{
+    clear: both;
+}
+
+.carousel-caption{
+    top: 25%;
+    left: 15%;
+    text-align: left;
+}
+.SliderBaslik{
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #8E949B;
+}
+.SliderAciklama{
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    max-width: 290px;
+    border-bottom: 1px solid #818472;
+    padding-bottom: 39px;
+}
+.SatinAlmaButon{
+    border-radius: 0px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 14px 31px;
+    margin-top: 131px;
+}
+.SatinAlmaButon:hover{
+    background-color: #FFFFFF;
+}
+.Discover{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Raleway',sans-serif;
+    font-weight:lighter;
+    font-size: 16px;
+    color: #818472;
+}
+.Koleksiyon{
+    text-align: center; 
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    color: #818472;
+}
+
+.UrunBilgiTutucu{
+    position: relative;
+    width:100%;
+    margin-top: 75px;
+}
+.UrunResim{
+    width:100%;
+}
+.UrunResim img{
+   width:100%; 
+}
+.UrunGolge{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+.UrunGolge img{
+    width: 100%;
+}
+.UrunAdi{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: 'Playfair Display',sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    bottom: 23px;
+    overflow: hidden;
+}
+.MarkaTanitimFoto{
+    height: 906px;
+    margin-top: 156px;
+    padding-top: 141px;
+    padding-left: 191px;
+    background-image: url('/img/MarkaTanitimFoto.jpg');
+    width: 100%;
+}
+.MarkaTanitim{
+    top: 282px;
+    left: 382px;
+}
+.MarkaTanitimBaslik{
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #818472;
+}
+.MarkaTanitimAltBaslik{
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color:#FFFFFF;
+    max-width: 454px;
+    padding-bottom: 40px;
+    border-bottom: 0.5px solid #FFFFFF;
+}
+.MarkaTanitimAciklama{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:#FFFFFF;
+    max-width: 454px;
+    margin-top: 30px;
+}
+.FavoriUrunler{
+    background-color: #EFF0F4;
+}
+.UrunBilgiTutucu2{
+    width: 100%;
+    margin-top: 80px;
+}
+.UrunResim2{
+    width: 100%;
+}
+.UrunResim2 img{
+    width: 100%;
+}
+.FavoriUrunKategori{
+    text-align: center;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 16px;
+    color:#8D8D91;
+}
+.FavoriUrunAdi{
+    text-align: center;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 12px;
+    color:#818472;
+}
+.FavoriUrunFiyat{
+    text-align: center;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 16px;
+    color:#8D8D91;
+}
+.DahaFazlasiButon{
+    text-align: center;
+    border-radius: 0px;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#8D8D91;
+    padding: 14px 24px;
+    border-color: #8D8D91;
+    margin-top: 62px;
+    margin-bottom: 75px;
+}
+.DahaFazlasiButon:hover{
+    background-color: #FFFFFF !important;
+    border-color: #8D8D91;
+}
+.FooterBg{
+    background-color: #0C0C11;
+    height: 100%;
+}
+.FooterMarkaIcon{
+    margin-top: 60px;
+}
+.FooterBaslik{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #818472;
+    margin-top: 78px;
+}
+.FooterAltBaslik{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #8D8D91;
+}
+.FooterAltBaslik:hover{
+    color: #FFFFFF;
+}
+.FooterAltBaslikTutucu{
+    margin-top: 32px;
+}
+.FooterLogo{
+    margin-right: 10px;
+}
+.AboneAciklama{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8D8D91;
+    max-width: 285px;
+    margin-top: 15px;
+}
+.EmailForm{
+    border-radius: 0px;
+    margin-top: 18px;
+    height: 40px;
+    background-color: #262730;
+    border-color: #707070;
+    color: #8D8D91;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.AboneButon{
+    border-radius: 0px;
+    margin-top: 18px;
+    height: 40px;
+    background-color: #8D8D91;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #262730;
+    border-color: #707070;
+}
+
+.HakkimizdaFotoTutucu{
+    position: relative;
+    width:100%;
+}
+.HakkimizdaFoto{
+    width:100%;
+}
+.HakkimizdaFoto img{
+   width:100%; 
+}
+.HakkimizdaBaslik{
+    position: absolute;
+    font-family: 'Playfair Display',sans-serif;
+    color:#8E949B;
+    font-weight: 400;
+    font-size: 50px;
+    top: 40%;
+    left: 20%;
+    overflow: hidden;
+}
+.HakkimizdaAltBaslik{
+    position: absolute;
+    font-family: 'Playfair Display',sans-serif;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 30px;
+    top: 55%;
+    left: 20%;
+    overflow: hidden;
+}
+.Hikayemiz{
+    max-width: 875px;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6C6C70;
+    margin: 90px auto 115px auto;
+}
+.Paragraf{
+    text-align: left;
+}
+.SloganFotoTutucu{
+    text-align: center;
+    padding-top: 140px;
+    position: relative;
+    background: url('/img/SloganFoto.jpg') no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: #FFFFFF;
+}
+.SloganBaslik{
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color:#FFFFFF;
+}
+.SloganAltBaslik{
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color:#FFFFFF;
+    margin-bottom: 90px;
+}
+.SloganAciklama{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    color:#FFFFFF;
+    font-size: 20px;
+    max-width: 450px;
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+.HeaderNavigasyon{
+    position: absolute;
+    text-align: right;
+    height: 14px;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.SagaYasla{
+    text-align: right;
+}
+.FloatRight{
+    float: right;
+    text-align: right;
+}
+.Basliklar{
+    text-align: center;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:#000000;
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid #818472;
+}
+.UrunBilgiTutucu3{
+    width: 100%;
+    margin-top: 100px;
+}
+.UrunResim3{
+    width: 100%;
+}
+.UrunResim3 img{
+    width: 100%;
+}
+.KoleksiyonUrunKategori{
+    text-align: center;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 16px;
+    color:#8D8D91;
+}
+.KoleksiyonUrunAdi{
+    text-align: center;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 12px;
+    color:#818472;
+}
+.KoleksiyonUrunFiyat{
+    text-align: center;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 16px;
+    color:#8D8D91;
+}
+.FiltreleButon{
+    text-align: right;
+    border-radius: 0px;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color:#8D8D91;
+    padding: 8px 27px;
+    margin-top: 30px;
+    border-color: #8D8D91;  
+}
+.SiralaButon{
+    text-align: right;
+    border-radius: 0px;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color:#8D8D91;
+    padding: 8px 27px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-color: #8D8D91;
+}
+.FiltreleButon:hover{
+    background-color: #FFFFFF !important;
+    border-color: #8D8D91;
+}
+.SiralaButon:hover{
+    background-color: #FFFFFF !important;
+    border-color: #8D8D91;
+}
+.AltBosluk{
+    margin-bottom: 250px;
+}
+.FormCerceve{
+    margin-top: 55px;
+    margin-bottom: 285px;
+    border: 0.5px solid #818472;
+    border-radius: 0px;
+    padding: 54px 52px;
+}
+.FormSecenek{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.FormCheck{
+    border-radius: 0px;
+    height: 44px;
+    width: 100%;
+}
+.LoginSorular{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.GirisButon{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 0px;
+    width: 100%;
+    padding: 15px 140px;
+    background-color: #000000;
+}
+.GirisYapmaSecenekleri{
+    height: 318px;
+    background-color: #000000;
+    margin-top: 55px;
+    padding: 60px 52px;
+}
+.Yada{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #F9F8F4;
+}
+.FacebookGirisButon{
+    margin-top: 60px;
+    border-radius: 0px;
+    width: 100%;
+    padding: 15px 88px;
+    background-color: #000000;
+    border-color: #FFFFFF;
+}
+.GoogleGirisButon{
+    margin-top: 33px;
+    margin-bottom: 60px;
+    border-radius: 0px;
+    width: 100%;
+    padding: 15px 97px;
+    background-color: #000000;
+    border-color: #FFFFFF;
+}
+.GirisVeKayitHizalama{
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.KullaniciSozlesme{
+    border-radius: 0px;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+    max-width: 270px;
+}
+.Kosullar{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 15px;
+    color: #999999;
+}
+.SepetIcon2{
+    margin-right: 16px;
+}
+.Hediyeler{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 104px;
+    color: #000000;
+}
+.HediyeLogo{
+    margin-right: 12px;
+}
+.SepetUrunler{
+    border: 0.5px solid #818472;
+    margin-top: 35px;
+
+    margin-bottom: 155px;
+}
+.SepetBilgileri{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #545456;
+    text-align: right;
+    margin-top: 33px;
+    border-bottom: 0.5px solid #C8C8CC;
+    padding-bottom: 10px;
+}
+.FiyatBaslik{
+    margin-right: 70px;
+}
+.AdetBaslik{
+    margin-right: 68px;
+}
+.AraToplamBaslik{
+    margin-right: 30px;
+}
+.SepetUrunFoto{
+    border: 0.5px solid #AFAFB2;
+    margin-top: 33px;
+    margin-bottom: 52px;
+}
+.SepetUrunIsim{
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#818472;
+    margin-top: 30px;
+}
+.HediyeSecenek{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #000000;
+}
+.Fiyat{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8D8D91;
+    margin-top: 34px;
+}
+.Adet{
+    text-align: center;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8D8D91;
+    border: 0.5px solid #AFAFB2;
+    height: 32px;
+    width: 60px;
+    margin-top: 30px;
+}
+.AraToplam{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8D8D91;
+    margin-top: 34px;
+}
+.SepetUrun2Border{
+    border-top: 0.5px solid #C8C8CC;
+    border-bottom: 0.5px solid #C8C8CC;
+}
+.UpdateShopping{
+    text-align: right;
+}
+.UpdateShoppingBag{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 38px;
+    padding: 11px 40px;
+    border-radius: 0px;
+    border-color: #AFAFB2;
+}
+.OzetBg{
+    margin-top: 55px;
+    background-color: #191919;
+    padding: 22px 20px 26px 26px;
+
+}
+.Ozet{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 59px;
+}
+.Subtotal{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #E5E5E5;
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+.SubtotalFiyat{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-top: 12px;
+}
+.OzetBorder{
+    border-bottom: 0.5px solid #AFAFB2;
+}
+.OrderTotal{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 13px;
+}
+.ToplamFiyat{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-top: 13px;
+}
+.DevamEtBg{
+    text-align: center;
+    background-color: #000000;
+}
+.DevamEtButon{
+    margin: 30px 26px;
+    border-radius: 0px;
+    padding: 10px 52px;
+    background-color: #000000;
+    border-color: #AFAFB2;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+.SliderButonRengi{
+    border-color:#AFAFB2 !important;
+}
+.UrunDetayFoto{
+    margin-top: 40px;
+}
+.UrunDetayFotoAralik{
+    margin-top: 20px;
+}
+.SolaYasla{
+    text-align: left;
+}
+.UrunDetayFiyat{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #8D8D91;
+    border-bottom: 0.5px solid #AFAFB2;
+    padding-bottom: 23px;
+}
+.QTY{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #8D8D91;
+    margin-top: 20px;
+}
+.UrunMiktar{
+    margin-top: 12px;
+}
+.UrunAzaltma{
+    border: 0.5px solid #AFAFB2;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #8D8D91;
+    padding: 6px 12px;
+}
+.UrunSayisi{
+    border: 0.5px solid #AFAFB2;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8D8D91;
+    padding: 6px 12px;
+}
+.UrunArttirma{
+    border: 0.5px solid #AFAFB2;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #8D8D91;
+    padding: 6px 12px;
+}
+.HediyeUrun{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #8D8D91;
+    margin-top: 28px;
+}
+.CantayaEkleButon{
+    text-align: center;
+    border-radius: 0px;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color:#000000;
+    padding: 15px 83px;
+    margin-top: 42px;
+    border-color: #AFAFB2;  
+}
+.SimdiAlButon{
+    text-align: center;
+    border-radius: 0px;
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color:#F9F8F4;
+    padding: 15px 93px;
+    margin-top: 42px;
+    border-color: #AFAFB2;  
+}
+.UrunOzellikTutucu{
+    margin-top: 42px;
+    border-radius: 0px;
+}
+.UrunAciklamasiSekme{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#818472;
+}
+.UrunAciklamasi{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color:#6C6C70;
+    max-width: 1250px;
+}
+.UrunOzellikleriSekme{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#818472;
+}
+.UrunOzellikleri{
+    font-family: 'Ralewey',sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color:#6C6C70;
+    max-width: 1250px;
+    border-left: none;
+    border-right: none;
+}
+.FindMore{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Raleway',sans-serif;
+    font-weight:lighter;
+    font-size: 16px;
+    color: #818472;
+}
+.MobilMenuBg{
+    background-color: #0C0C11;
+    height: 62px;
+}
+.MobileHeader{
+    position: relative;
+}
+.MobilMarkLogo{
+    position: absolute;
+    left: 13px;
+    top: 14px;
+}
+.MenuLogolar{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}

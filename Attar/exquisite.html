@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="w-100">
+            <nav class="Menu">
+                <div class="NavLogoTutucu container">
+                    <img src="/img/MarkaIcon.svg" class="MarkaLogo" />
+                </div>
+                <div class="HeaderIconlar">
+                    <div class="HIcon"><img src="/img/MenuIcon.svg"></div>
+                    <div class="HIcon mrUser"><img src="/img/KullaniciIcon.svg"></div>
+                    <div class="HIcon "><img src="/img/SepetIcon.svg"></div>
+                    <div class="HIcon "><img src="/img/FavoriIcon.svg"></div>
+                    <div class="temizle"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <header class="d-block d-md-none MobileHeader">
+        <section class="MobilMenuBg">
+            <div class="MobilMarkaLogo">
+                <img src="/img/MobileMarkaIcon.svg">
+            </div>
+            <div class="MenuLogolar">
+                <img src="/img/MenuIcon.svg">
+            </div>
+        </section>
+    </header>
+
+    <article>
+        <section class="container w-100">
+            <nav aria-label="breadcrumb" class="HeaderNavigasyon">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                    <li class="breadcrumb-item"><a href="#">LOGIN</a></li>
+                    <li class="breadcrumb-item active KalinYaz" aria-current="page">EXQUISITE</li>
+                </ol>
+            </nav>
+            <div class="Basliklar">
+                EXQUISITE
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <div class="UrunDetayFoto">
+                        <a href="#"><div class="UrunDetayFotoAralik"><img src="/img/UrunDetayFoto1.jpg"/></div></a>
+                        <a href="#"><div class="UrunDetayFotoAralik"><img src="/img/UrunDetayFoto2.jpg"/></div></a>
+                        <a href="#"><div class="UrunDetayFotoAralik"><img src="/img/UrunDetayFoto3.jpg"/></div></a>
+                        <a href="#"><div class="UrunDetayFotoAralik"><img src="/img/UrunDetayFoto4.jpg"/></div></a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div  id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/img/UrunDetaySliderFoto1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/img/UrunDetaySliderFoto2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/img/UrunDetaySliderFoto3.jpg"class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/img/UrunDetaySliderFoto1.jpg"class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="Discover SolaYasla">FOR MEN</div>
+                    <div class="Koleksiyon SolaYasla">EXQUISITE <img src="/img/FavoriIcon.svg" class=""/></div>
+                    <div class="UrunDetayFiyat">$ 249.00</div>
+                    <div class="QTY">QTY</div>
+                    <div class="UrunMiktar">
+                        <span class="UrunAzaltma">-</span>
+                        <span class="UrunSayisi">1</span>
+                        <span class="UrunArttirma">+</span>
+                    </div>
+                    <div class="form-check HediyeUrun">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Make it a Gift
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-light CantayaEkleButon">ADD TO BAG</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-dark SimdiAlButon">BUY NOW</button>
+                        </div>
+                    </div>
+                    <div class="accordion accordion-flush UrunOzellikTutucu" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed UrunAciklamasiSekme" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Product Description
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body UrunAciklamasi">
+                                <p>Woody</p>
+
+                                <p>An olfactive escape to a place of freedom and oblivion
+                                where nature overpowers all senses.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed UrunOzellikleriSekme" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Notes and Ingredients
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body UrunOzellikleri">
+                                <p>Pink grapefruit, cassis, frozen raspberry, lokum, candied fruits.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>                      
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="FindMore">FIND MORE</div>
+                </div>
+                <div class="col-md-12">
+                    <div class="Koleksiyon">YOU MAY ALSO LIKE</div>
+                </div>
+                <div class="col-md-3">
+                    <div class="UrunBilgiTutucu3">
+                        <div class="UrunResim3"><img src="/img/FavoriParfum1.jpg"/></div>
+                        <div class="KoleksiyonUrunKategori">FOR MEN</div>
+                        <div class="KoleksiyonUrunAdi">GOLDEN ICE</div>
+                        <div class="KoleksiyonUrunFiyat">$ 249.00</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="UrunBilgiTutucu3">
+                        <div class="UrunResim2"><img src="/img/FavoriParfum2.jpg"/></div>
+                        <div class="KoleksiyonUrunKategori">FOR MEN</div>
+                        <div class="KoleksiyonUrunAdi">METALLIC OUD</div>
+                        <div class="KoleksiyonUrunFiyat">$ 249.00</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="UrunBilgiTutucu3">
+                        <div class="UrunResim3"><img src="/img/FavoriParfum3.jpg"/></div>
+                        <div class="KoleksiyonUrunKategori">FOR MEN</div>
+                        <div class="KoleksiyonUrunAdi">EXQUISITE</div>
+                        <div class="KoleksiyonUrunFiyat">$ 249.00</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="UrunBilgiTutucu3">
+                        <div class="UrunResim3"><img src="/img/FavoriParfum4.jpg"/></div>
+                        <div class="KoleksiyonUrunKategori">FOR MEN</div>
+                        <div class="KoleksiyonUrunAdi">PASSION OUD</div>
+                        <div class="KoleksiyonUrunFiyat">$ 249.00</div>
+                    </div>
+                </div>
+                <div class="AltBosluk"></div>
+            </div>    
+        </section>
+    </article>
+
+    <footer>
+        <div class="FooterBg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="FooterMarkaIcon"><img src="/img/FooterMarkaIcon.svg" /></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="FooterBaslik">
+                            ATTAR AL HAS
+                        </div>
+                        <div class="FooterAltBaslikTutucu">
+                            <div><a href="#" class="FooterAltBaslik">Our Story</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Our Philosophy</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Careers</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="FooterBaslik">
+                            COLLECTION
+                        </div>
+                        <div class="FooterAltBaslikTutucu">
+                            <div><a href="#" class="FooterAltBaslik">My Magic</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Kamuthraa</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Golden Ice</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Exquisite</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Passion Oud</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Fleur de Tabac</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Leather Effect</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Spice Rose</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Metallic Oud</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="FooterBaslik">
+                            LEGAL
+                        </div>
+                        <div class="FooterAltBaslikTutucu">
+                            <div><a href="#" class="FooterAltBaslik">Terms & Conditions</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Privacy Policy</a></div>
+                            <div><a href="#" class="FooterAltBaslik">Cookie Policy</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="FooterBaslik">
+                            FOLLOW US
+                        </div>
+                        <div class="FooterAltBaslikTutucu">
+                            <div class="FooterAltBaslik">for exclusive news and updates:</div>
+                            <a href="#"><img src="/img/WhatsappLogo.svg" class="FooterLogo" /></a>
+                            <a href="#"><img src="/img/FacebookLogo.svg" class="FooterLogo" /></a>
+                            <a href="#"><img src="/img/InstagramLogo.svg" class="FooterLogo" /></a>
+                            <a href="#"><img src="/img/TwitterLogo.svg" class="FooterLogo" /></a>
+                            <a href="#"><img src="/img/YoutubeLogo.svg" class="FooterLogo" /></a>
+                        </div>
+                        <div class="FooterBaslik">
+                            SUBSCRIBE NOW
+                        </div>
+                        <p class="AboneAciklama">
+                            Receive exclusive content and news from Attar al Has and be the first to know about the
+                            product launches and special announcements.
+                        </p>
+                        <form>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control EmailForm" placeholder="Enter your email address"
+                                    aria-label="Enter your email address" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary AboneButon" type="button"
+                                    id="button-addon2">SUBSCRIBE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
